@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">208</arg>: You are giving the signal <arg fmt="%s" index="3">x1</arg> a default value. <arg fmt="%s" index="4">x1</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">209</arg>: You are giving the signal <arg fmt="%s" index="3">x2</arg> a default value. <arg fmt="%s" index="4">x2</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">210</arg>: You are giving the signal <arg fmt="%s" index="3">x3</arg> a default value. <arg fmt="%s" index="4">x3</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">211</arg>: You are giving the signal <arg fmt="%s" index="3">x4</arg> a default value. <arg fmt="%s" index="4">x4</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">213</arg>: You are giving the signal <arg fmt="%s" index="3">y1</arg> a default value. <arg fmt="%s" index="4">y1</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">214</arg>: You are giving the signal <arg fmt="%s" index="3">y2</arg> a default value. <arg fmt="%s" index="4">y2</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">215</arg>: You are giving the signal <arg fmt="%s" index="3">y3</arg> a default value. <arg fmt="%s" index="4">y3</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="warning" file="Xst" num="1643" delta="old" >&quot;<arg fmt="%s" index="1">Zmija.v</arg>&quot; line <arg fmt="%d" index="2">216</arg>: You are giving the signal <arg fmt="%s" index="3">y4</arg> a default value. <arg fmt="%s" index="4">y4</arg> already had a default value, which will be overridden by this one.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">apple_y1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Zmija</arg>&gt; has a constant value of <arg fmt="%s" index="3">00011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">apple_y2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Zmija</arg>&gt; has a constant value of <arg fmt="%s" index="3">11001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">reset_done</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">blue_value</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">apple_x1_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x1_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x1_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">apple_x1_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x1_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x1_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Zmija</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">apple_x1_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Zmija</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;apple_x1_2&gt; &lt;apple_x1_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">apple_x2_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Zmija</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;apple_x2_5&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,312 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/zmija/zmija/Zmija.xst" -ofn "C:/Users/Student/Desktop/zmija/zmija/Zmija.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc zmija.ucf -p xc3s500e-fg320-5 Zmija.ngc Zmija.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Zmija_map.ncd Zmija.ngd Zmija.pcf 
+par -w -intstyle ise -ol high -t 1 Zmija_map.ncd Zmija.ncd Zmija.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Zmija.twx Zmija.ncd -o Zmija.twr Zmija.pcf -ucf zmija.ucf 
+bitgen -intstyle ise -f Zmija.ut Zmija.ncd 

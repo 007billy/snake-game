@@ -1,0 +1,594 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: Zmija.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Zmija.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Zmija"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Zmija
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Zmija.v" in library work
+Module <Zmija> compiled
+No errors in compilation
+Analysis of file <"Zmija.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Zmija> in library <work> with parameters.
+	H_BACK_PORCH = "00000000000000000000000000100101"
+	H_DISPLAY = "00000000000000000000001010000000"
+	H_FRONT_PORCH = "00000000000000000000000000011011"
+	H_SYNC_WIDTH = "00000000000000000000000001100000"
+	H_TOTAL = "00000000000000000000001100100000"
+	V_BACK_PORCH = "00000000000000000000000000011010"
+	V_DISPLAY = "00000000000000000000000111100101"
+	V_FRONT_PORCH = "00000000000000000000000000001000"
+	V_SYNC_WIDTH = "00000000000000000000000000000010"
+	V_TOTAL = "00000000000000000000001000001001"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Zmija>.
+	H_BACK_PORCH = 32'sb00000000000000000000000000100101
+	H_DISPLAY = 32'sb00000000000000000000001010000000
+	H_FRONT_PORCH = 32'sb00000000000000000000000000011011
+	H_SYNC_WIDTH = 32'sb00000000000000000000000001100000
+	H_TOTAL = 32'sb00000000000000000000001100100000
+	V_BACK_PORCH = 32'sb00000000000000000000000000011010
+	V_DISPLAY = 32'sb00000000000000000000000111100101
+	V_FRONT_PORCH = 32'sb00000000000000000000000000001000
+	V_SYNC_WIDTH = 32'sb00000000000000000000000000000010
+	V_TOTAL = 32'sb00000000000000000000001000001001
+WARNING:Xst:1643 - "Zmija.v" line 208: You are giving the signal x1 a default value. x1 already had a default value, which will be overridden by this one.
+WARNING:Xst:1643 - "Zmija.v" line 209: You are giving the signal x2 a default value. x2 already had a default value, which will be overridden by this one.
+WARNING:Xst:1643 - "Zmija.v" line 210: You are giving the signal x3 a default value. x3 already had a default value, which will be overridden by this one.
+WARNING:Xst:1643 - "Zmija.v" line 211: You are giving the signal x4 a default value. x4 already had a default value, which will be overridden by this one.
+WARNING:Xst:1643 - "Zmija.v" line 213: You are giving the signal y1 a default value. y1 already had a default value, which will be overridden by this one.
+WARNING:Xst:1643 - "Zmija.v" line 214: You are giving the signal y2 a default value. y2 already had a default value, which will be overridden by this one.
+WARNING:Xst:1643 - "Zmija.v" line 215: You are giving the signal y3 a default value. y3 already had a default value, which will be overridden by this one.
+WARNING:Xst:1643 - "Zmija.v" line 216: You are giving the signal y4 a default value. y4 already had a default value, which will be overridden by this one.
+Module <Zmija> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <apple_y1> in unit <Zmija> has a constant value of 00011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <apple_y2> in unit <Zmija> has a constant value of 11001 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <Zmija>.
+    Related source file is "Zmija.v".
+WARNING:Xst:646 - Signal <reset_done> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <blue_value> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+    Using one-hot encoding for signal <direction>.
+    Found 6-bit register for signal <apple_x1>.
+    Found 6-bit comparator equal for signal <apple_x1$cmp_eq0000> created at line 376.
+    Found 6-bit register for signal <apple_x2>.
+    Found 6-bit comparator equal for signal <apple_x2$cmp_eq0000> created at line 381.
+    Found 1-bit register for signal <b>.
+    Found 1-bit register for signal <clk25>.
+    Found 4-bit register for signal <controll>.
+    Found 4-bit register for signal <direction>.
+    Found 1-bit register for signal <game_over>.
+    Found 1-bit register for signal <green_value>.
+    Found 6-bit comparator greatequal for signal <green_value$cmp_ge0000> created at line 338.
+    Found 5-bit comparator greatequal for signal <green_value$cmp_ge0001> created at line 333.
+    Found 5-bit comparator not equal for signal <green_value$cmp_ne0000> created at line 359.
+    Found 6-bit comparator not equal for signal <green_value$cmp_ne0001> created at line 359.
+    Found 5-bit comparator not equal for signal <green_value$cmp_ne0002> created at line 354.
+    Found 6-bit comparator not equal for signal <green_value$cmp_ne0003> created at line 354.
+    Found 5-bit comparator not equal for signal <green_value$cmp_ne0004> created at line 349.
+    Found 6-bit comparator not equal for signal <green_value$cmp_ne0005> created at line 349.
+    Found 5-bit comparator not equal for signal <green_value$cmp_ne0006> created at line 343.
+    Found 6-bit comparator not equal for signal <green_value$cmp_ne0007> created at line 343.
+    Found 10-bit register for signal <hCount>.
+    Found 10-bit register for signal <hCount_next>.
+    Found 10-bit adder for signal <hCount_next$addsub0000> created at line 166.
+    Found 1-bit register for signal <hSync>.
+    Found 1-bit register for signal <hSync_next>.
+    Found 10-bit comparator greatequal for signal <hSync_next$cmp_ge0000> created at line 492.
+    Found 10-bit comparator lessequal for signal <hSync_next$cmp_le0000> created at line 492.
+    Found 5-bit register for signal <k_r>.
+    Found 6-bit register for signal <k_s>.
+    Found 1-bit register for signal <red_value>.
+    Found 5-bit comparator equal for signal <red_value$cmp_eq0006> created at line 343.
+    Found 6-bit comparator equal for signal <red_value$cmp_eq0007> created at line 343.
+    Found 5-bit comparator equal for signal <red_value$cmp_eq0008> created at line 349.
+    Found 6-bit comparator equal for signal <red_value$cmp_eq0009> created at line 349.
+    Found 5-bit comparator equal for signal <red_value$cmp_eq0010> created at line 354.
+    Found 6-bit comparator equal for signal <red_value$cmp_eq0011> created at line 354.
+    Found 5-bit comparator equal for signal <red_value$cmp_eq0012> created at line 359.
+    Found 6-bit comparator equal for signal <red_value$cmp_eq0013> created at line 359.
+    Found 6-bit comparator equal for signal <red_value$cmp_eq0015> created at line 364.
+    Found 6-bit comparator equal for signal <red_value$cmp_eq0017> created at line 366.
+    Found 5-bit comparator less for signal <red_value$cmp_lt0000> created at line 452.
+    Found 6-bit comparator less for signal <red_value$cmp_lt0001> created at line 456.
+    Found 6-bit comparator less for signal <red_value$cmp_lt0002> created at line 338.
+    Found 32-bit up counter for signal <timer_1>.
+    Found 10-bit register for signal <vCount>.
+    Found 10-bit register for signal <vCount_next>.
+    Found 10-bit adder for signal <vCount_next$addsub0000> created at line 195.
+    Found 1-bit register for signal <vSync>.
+    Found 1-bit register for signal <vSync_next>.
+    Found 10-bit comparator greatequal for signal <vSync_next$cmp_ge0000> created at line 494.
+    Found 10-bit comparator lessequal for signal <vSync_next$cmp_le0000> created at line 494.
+    Found 6-bit register for signal <x1>.
+    Found 6-bit addsub for signal <x1$addsub0000>.
+    Found 6-bit register for signal <x2>.
+    Found 6-bit register for signal <x3>.
+    Found 6-bit register for signal <x4>.
+    Found 5-bit register for signal <y1>.
+    Found 5-bit addsub for signal <y1$addsub0000>.
+    Found 5-bit register for signal <y2>.
+    Found 5-bit register for signal <y3>.
+    Found 5-bit register for signal <y4>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred 120 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  29 Comparator(s).
+Unit <Zmija> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 2
+ 5-bit addsub                                          : 1
+ 6-bit addsub                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 27
+ 1-bit register                                        : 9
+ 10-bit register                                       : 4
+ 4-bit register                                        : 2
+ 5-bit register                                        : 5
+ 6-bit register                                        : 7
+# Comparators                                          : 29
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator lessequal                           : 2
+ 5-bit comparator equal                                : 4
+ 5-bit comparator greatequal                           : 1
+ 5-bit comparator less                                 : 1
+ 5-bit comparator not equal                            : 4
+ 6-bit comparator equal                                : 8
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator less                                 : 2
+ 6-bit comparator not equal                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1293 - FF/Latch <apple_x1_1> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x1_4> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x1_5> has a constant value of 1 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_0> has a constant value of 1 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_1> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_2> has a constant value of 1 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_4> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 10-bit adder                                          : 2
+ 5-bit addsub                                          : 1
+ 6-bit addsub                                          : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 124
+ Flip-Flops                                            : 124
+# Comparators                                          : 29
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator lessequal                           : 2
+ 5-bit comparator equal                                : 4
+ 5-bit comparator greatequal                           : 1
+ 5-bit comparator less                                 : 1
+ 5-bit comparator not equal                            : 4
+ 6-bit comparator equal                                : 8
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator less                                 : 2
+ 6-bit comparator not equal                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <apple_x1_1> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x1_4> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x1_5> has a constant value of 1 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_0> has a constant value of 1 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_1> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_2> has a constant value of 1 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <apple_x2_4> has a constant value of 0 in block <Zmija>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <apple_x1_0> in Unit <Zmija> is equivalent to the following 2 FFs/Latches, which will be removed : <apple_x1_2> <apple_x1_3> 
+INFO:Xst:2261 - The FF/Latch <apple_x2_3> in Unit <Zmija> is equivalent to the following FF/Latch, which will be removed : <apple_x2_5> 
+
+Optimizing unit <Zmija> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Zmija, actual ratio is 3.
+FlipFlop hCount_9 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_8 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop hCount_0 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_9 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_8 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_6 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_5 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_4 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_3 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_2 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_1 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop vCount_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 166
+ Flip-Flops                                            : 166
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Zmija.ngr
+Top Level Output File Name         : Zmija
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 31
+
+Cell Usage :
+# BELS                             : 344
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 49
+#      LUT2                        : 14
+#      LUT2_D                      : 1
+#      LUT2_L                      : 3
+#      LUT3                        : 41
+#      LUT3_D                      : 3
+#      LUT3_L                      : 6
+#      LUT4                        : 84
+#      LUT4_D                      : 6
+#      LUT4_L                      : 15
+#      MUXCY                       : 57
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 52
+# FlipFlops/Latches                : 166
+#      FD                          : 13
+#      FDC                         : 52
+#      FDCE                        : 13
+#      FDE                         : 3
+#      FDPE                        : 1
+#      FDR                         : 3
+#      FDRE                        : 64
+#      FDS                         : 9
+#      FDSE                        : 8
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 30
+#      IBUF                        : 5
+#      OBUF                        : 25
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      137  out of   4656     2%  
+ Number of Slice Flip Flops:            146  out of   9312     1%  
+ Number of 4 input LUTs:                230  out of   9312     2%  
+ Number of IOs:                          31
+ Number of bonded IOBs:                  31  out of    232    13%  
+    IOB Flip Flops:                      20
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk251                             | BUFG                   | 123   |
+clk50                              | BUFGP                  | 43    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 66    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.519ns (Maximum Frequency: 153.400MHz)
+   Minimum input arrival time before clock: 5.337ns
+   Maximum output required time after clock: 5.009ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk251'
+  Clock period: 6.519ns (frequency: 153.400MHz)
+  Total number of paths / destination ports: 2420 / 169
+-------------------------------------------------------------------------
+Delay:               6.519ns (Levels of Logic = 5)
+  Source:            k_r_2 (FF)
+  Destination:       green_value (FF)
+  Source Clock:      clk251 rising
+  Destination Clock: clk251 rising
+
+  Data Path: k_r_2 to green_value
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.514   0.700  k_r_2 (k_r_2)
+     LUT4:I3->O            1   0.612   0.360  red_value_cmp_eq0008562 (red_value_cmp_eq0008562)
+     LUT4:I3->O            2   0.612   0.532  red_value_cmp_eq0008578 (red_value_cmp_eq0008)
+     LUT4:I0->O            2   0.612   0.383  green_value_mux00004 (green_value_mux00004)
+     LUT4_L:I3->LO         1   0.612   0.130  green_value_not000175 (green_value_not000175)
+     LUT4:I2->O            1   0.612   0.357  green_value_not000196 (green_value_not0001)
+     FDE:CE                    0.483          green_value
+    ----------------------------------------
+    Total                      6.519ns (4.057ns logic, 2.462ns route)
+                                       (62.2% logic, 37.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk50'
+  Clock period: 1.689ns (frequency: 592.084MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.689ns (Levels of Logic = 0)
+  Source:            clk25 (FF)
+  Destination:       clk25 (FF)
+  Source Clock:      clk50 rising
+  Destination Clock: clk50 rising
+
+  Data Path: clk25 to clk25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.380  clk25 (clk251)
+     FDR:R                     0.795          clk25
+    ----------------------------------------
+    Total                      1.689ns (1.309ns logic, 0.380ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk251'
+  Total number of paths / destination ports: 152 / 133
+-------------------------------------------------------------------------
+Offset:              5.337ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       x1_0 (FF)
+  Destination Clock: clk251 rising
+
+  Data Path: reset to x1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           118   1.106   1.248  reset_IBUF (reset_IBUF)
+     LUT4:I0->O            5   0.612   0.607  x1_mux0000<0>131 (N33)
+     LUT2:I1->O            1   0.612   0.357  x1_mux0000<0>1_SW0 (N2)
+     FDS:S                     0.795          x1_0
+    ----------------------------------------
+    Total                      5.337ns (3.125ns logic, 2.212ns route)
+                                       (58.6% logic, 41.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk50'
+  Total number of paths / destination ports: 22 / 22
+-------------------------------------------------------------------------
+Offset:              5.009ns (Levels of Logic = 2)
+  Source:            hSync (FF)
+  Destination:       VGA_hSync (PAD)
+  Source Clock:      clk50 rising
+
+  Data Path: hSync to VGA_hSync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.357  hSync (hSync)
+     INV:I->O              1   0.612   0.357  VGA_hSync1_INV_0 (VGA_hSync_OBUF)
+     OBUF:I->O                 3.169          VGA_hSync_OBUF (VGA_hSync)
+    ----------------------------------------
+    Total                      5.009ns (4.295ns logic, 0.714ns route)
+                                       (85.7% logic, 14.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk251'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            green_value (FF)
+  Destination:       VGA_G (PAD)
+  Source Clock:      clk251 rising
+
+  Data Path: green_value to VGA_G
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.514   0.357  green_value (green_value)
+     OBUF:I->O                 3.169          VGA_G_OBUF (VGA_G)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.73 secs
+ 
+--> 
+
+Total memory usage is 265624 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+
